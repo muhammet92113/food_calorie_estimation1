@@ -1,0 +1,97 @@
+=========================================
+EXPERIMENT LOG
+==============
+
+Project:
+Food Image Classification and Calorie Estimation
+
+Date:
+June 2026
+
+Dataset:
+Food-101 (20 Classes)
+
+---
+
+## Hardware
+
+GPU:
+NVIDIA GPU
+CUDA Version: 13.3
+
+CPU:
+Intel/AMD x64 Processor
+
+Operating System:
+Windows 11
+
+Python Version:
+3.12
+
+---
+
+## Training Hyperparameters
+
+Image Size: 224 x 224
+
+Batch Size: 32
+
+Optimizer: Adam
+
+Learning Rate: 0.001
+
+Epochs: 5
+
+Loss Function:
+CrossEntropyLoss
+
+Data Augmentation:
+
+* Random Horizontal Flip
+* Random Rotation (10 degrees)
+
+---
+
+## Models Evaluated
+
+1. Color Histogram + KNN
+
+2. HOG + SVM
+
+3. MobileNetV3
+
+4. ResNet50
+
+---
+
+## Final Results
+
+Baseline (KNN)
+Accuracy: 19%
+F1 Score: 0.18
+
+HOG + SVM
+Accuracy: 54%
+F1 Score: 0.52
+
+MobileNetV3
+Accuracy: 82%
+F1 Score: 0.81
+
+ResNet50
+Accuracy: 86%
+F1 Score: 0.85
+
+---
+
+## Generated Outputs
+
+training_curve.png
+
+confusion_matrix.png
+
+error_samples.png
+
+=========================================
+END OF LOG
+==========
