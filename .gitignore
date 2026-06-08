@@ -1,0 +1,2 @@
+echo "dataset/" >> .gitignore
+echo "results/*.png" >> .gitignore
