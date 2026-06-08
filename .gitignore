@@ -1,2 +1,28 @@
-echo "dataset/" >> .gitignore
-echo "results/*.png" >> .gitignore
+# Dataset
+dataset/food-101/
+dataset/food20/
+dataset/food20_split/
+*.tar.gz
+
+# Results (images and cache)
+results/*.png
+results/hog_cache/
+results/results_table
+results/results_table.txt
+results/run_hog.txt
+results/run_log.txt
+
+# Model checkpoints
+checkpoints/
+models/
+outputs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pth
+*.h5
+
+# IDE
+.idea/
